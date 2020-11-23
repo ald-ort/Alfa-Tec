@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "Alfa-Tec-app"
+  "defaultProject": "Alfa-Tec-app",
+  "cli": {
+    "analytics": false
+  }
 }
