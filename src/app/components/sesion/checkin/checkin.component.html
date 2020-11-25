@@ -1,1 +1,32 @@
-<p>checkin works!</p>
+<!-- <form class="form-signin" #userFrom="ngFrom" > -->
+<form class="form-signin">
+    <label for="name">Nombre</label>
+    <input class="form-styling" type="text" name="name"/>
+
+    <label for="pass">Correo electronico</label>
+    <input class="form-styling" type="text" name="pass"/>
+
+    <label for="pass">Contraseña</label>
+    <input class="form-styling" type="text" name="pass"/>
+
+    <label for="pass">Confirmar contraseña</label>
+    <input class="form-styling" type="text" name="pass"/>
+
+    <div class="radio">
+                              
+        <input type="radio" name="tipo" id="dc">
+        <label for="dc">Docente</label>
+        
+        <input type="radio" name="tipo" id="am">
+        <label for="am">Alumno</label>
+        
+        <input type="radio" name="tipo" id="tr">
+        <label for="tr">Tutor</label>
+        
+    </div>
+
+    <div class="btn-animate">
+        <input class="btn-signin" type="submit" value="Registrarse">
+    </div>
+
+</form>

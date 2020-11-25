@@ -1,0 +1,23 @@
+    <div class="container">
+        <div class="frame">
+            <div class="nav">
+                <div class="conLogo">
+                    <!-- <img class="logo" src="logo1.jpeg" alt=""> -->
+                    <h1 class="logo" >Alfa-Tec</h1>
+                </div>
+    
+                <ul>
+                    <li [class]="log"><a (click)="pagina(true)">Iniciar sesion</a></li>
+                    <li [class]="check"><a (click)="pagina(false)">Registrarse</a></li>
+                </ul>
+            </div>
+
+            <div id="checked" *ngIf="pag == true">
+                <app-login></app-login>
+            </div>
+            <div *ngIf="pag == false">
+                <app-checkin></app-checkin>
+            </div>
+
+        </div>
+    </div>

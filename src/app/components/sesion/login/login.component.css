@@ -1,0 +1,82 @@
+.form-signin {
+  /* width: 430px; */
+  width: 335px;
+  height: 375px;
+    font-size: 16px;
+    font-weight: 300;
+  padding-left: 37px;
+  padding-right: 37px;
+  padding-top: 180px;
+  transition: opacity .5s ease, transform .5s ease;
+}
+
+.form-signin input {
+    color: #ffffff;
+    font-size: 13px;
+  }
+
+.form-styling {
+  width: 100%;
+  height: 35px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+  margin-bottom: 20px;
+  background: rgba(255,255,255,.2);
+}
+ 
+label {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color: rgba(255,255,255,.7);
+    display: block;
+}
+
+:focus {outline: none;
+}
+
+.form-signin input:focus, textarea:focus {
+    background: rgba(255,255,255,.3);
+    border: none; 
+    transition: background .5s ease;
+}
+
+.btn-signin {
+    float: left;
+    padding-top: 0px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    margin-top: -8px;
+    color: rgba(255,255,255, 1);
+    background-color: rgba(16,89,255, 1);
+}
+
+.btn-animate {
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    
+    padding-top: 8px;
+    width: 105%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 23px;
+    /* background-color: rgba(16,89,255, 1); */
+    left: 0px;
+    top: 0px;
+    transition: all .5s ease, top .5s ease .5s, height .5s ease .5s, background-color .5s ease .75s; 
+}
+
+.btn-signin:hover {
+    cursor: pointer; 
+    background-color: #0F4FE6;
+    transition: background-color .5s; 
+}
